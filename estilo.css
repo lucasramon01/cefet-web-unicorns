@@ -1,0 +1,79 @@
+h2 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 10px;	
+}
+
+p {
+	font-family: "Arial";
+	font-size: 14px;
+
+}
+
+body {
+	margin: 0px;	
+}
+
+#cabecalho {
+	background-color: #6175f0;
+	color: white;
+	padding: 20px 34px 13px;
+}
+
+#cabecalho h1{
+	font-family: "Kaushan Script";
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+#verdade {
+	background-color: white;
+	color: black;
+	overflow: auto;	
+}
+
+#verdade h2, #verdade p {	
+	padding-left: 13px;	
+	overflow: auto;	
+}
+
+#verdade img {	
+    width: 310px;
+    float: left;    
+}
+
+#hoje {
+	width: 405px;
+	float: right;
+	color: black;
+	background-color: #f8cef7;	
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ff56fb;
+	padding: 20px 35px 30px 35px;
+	text-align: center;
+	margin-right: 25px;
+}
+
+#hoje img {
+	height: 112px;
+    width: 112px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#musica p, h2 {
+	padding-left: 12px;		
+}
+
+#musica p:nth-child(odd) {
+	padding-left: 34px;
+}
+
+.destacado {
+	color: #004a79;
+	background-color: #c4caf3;
+	overflow: auto;		
+}
